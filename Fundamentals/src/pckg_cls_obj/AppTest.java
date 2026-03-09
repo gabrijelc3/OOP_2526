@@ -7,5 +7,6 @@ public class AppTest {
         Student s2=new Student("Franka", "Franić", 43);
         s1.subscribeToStudentService();
         s2.subscribeToStudentService();
+        System.out.println(s1);
     }
 }
